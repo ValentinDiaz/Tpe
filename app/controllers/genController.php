@@ -1,4 +1,4 @@
-<?php
+h<?php
 
 include_once './app/view/discoView.php';
 include_once './app/model/generoModel.php';
@@ -16,12 +16,6 @@ class genController {
         $this->isUser=$this->loginHelper->checkLoggedIn();
         $this->genModel= new genModel();
         $this->genView = new genView($this->isUser);
-        
-
-        
-
-
-        
  
     }
     
