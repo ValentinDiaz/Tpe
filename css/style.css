@@ -1,0 +1,99 @@
+body{
+    background-color: black; 
+    color: white;
+}
+header{
+    margin: auto;
+    width: 90%;
+    border-bottom: 3px solid white;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li a:hover{
+    font-size: 18px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    text-transform: uppercase;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.discos{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 50px;
+    margin-top: 30px;
+}    
+.disco{
+    width: 330px;
+    background-color: aqua;
+    border: 3px solid white;
+    color: black; 
+}
+.btn_discos{
+    width: 120px;
+    height: 30px;
+    background-color: black;
+}
+.datos_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2px;
+}
+.button_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.datos_dico{
+    text-transform: uppercase;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    gap: 5px;
+    background-color: aqua;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid white;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div select{
+    margin-top: 18px;
+}
+form input, form select{
+    width: 120px;
+}
+
+table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 300px;
+    gap: 5px;
+    background-color: aqua;
+    color: black;
+    justify-items: center;
+    align-items: center;
+    border: 3px solid white;
+}
+td {
+    border-bottom: solid 3px black;
+}
